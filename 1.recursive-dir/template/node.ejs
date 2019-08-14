@@ -1,0 +1,8 @@
+<li> <%- item.name%> </li>
+<%if(Array.isArray(item.children)){%>
+    <ul>
+        <%item.children.forEach(citem=>{%>
+            <%-render({item:citem,render})%>
+        <%})%>
+    </ul>
+<%}%>
