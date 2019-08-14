@@ -7,6 +7,7 @@ const ejs = require('ejs');
 const express = require('express')
 
 const recursive = require('./recusive/index.js')
+
 const indextpl = fs.readFileSync(path.join(__dirname, './template/index.ejs'), 'utf8')
 const nodetpl = fs.readFileSync(path.join(__dirname, './template/node.ejs'), 'utf8')
 
