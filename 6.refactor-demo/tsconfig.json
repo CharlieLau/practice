@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "ESNext",
+        "resolveJsonModule": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/axios/**/*.ts"],
+    "exclude": ["src/axios/client/**/*.ts"]
+}
